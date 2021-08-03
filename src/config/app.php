@@ -230,7 +230,7 @@ return [
 
     ],
 
-    'exchange_rates_api_key' => env('EXCHANGE_RATES_API_KEY'),
-    'currency_converter_api_key' => env('CURRENCY_CONVERTER_API_KEY'),
+    'exchange_rates_api_key' => env('EXCHANGE_RATES_API_KEY',null),
+    'currency_converter_api_key' => env('CURRENCY_CONVERTER_API_KEY',null),
 
 ];
