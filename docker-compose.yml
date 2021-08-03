@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  web:
+    container_name: laravel-currency-converter
+    image: laravelapp
+    build:
+      context: .docker
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    volumes:
+      - ./src:/var/www
