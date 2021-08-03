@@ -3,7 +3,7 @@
 
 ### How to run this project
 
-To run this project you need to have docker and docker-compose installed in your machine.
+To run this project you need to have docker and docker-compose installed on your machine.
 
 Take the following steps:
 
